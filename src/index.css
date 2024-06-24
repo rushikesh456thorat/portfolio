@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0e1d2f;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+  
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity))); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(32, 76, 98); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(25, 88, 167); 
+}
+
+
+@media only screen and (max-width: 1080px) {
+ 
+
+
+  
+  
+
+  
+  .email-bar{
+    display: none;
+  }
+  .social-links{
+    display: none;
+  }
+  .flex-row{
+    display: block;
+  }
+
+  .info{
+    padding: 0px 60px;
+  }
+
+  .nav{
+    padding: 0px 60px;
+  }
+  .education-content{
+   margin: 0;
+  }
+}
+@media only screen and (max-width: 862px)
+{
+  .featured-content{
+    grid-area: 1 / 5 / -1 / 13;
+  }
+  .project-list{
+    gap: 15px;
+    
+  }
+  .nav-list ol li{
+    margin: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .nav-panel{
+    display: block;
+  }
+  .nav-list{
+    display: none;
+  }
+
+  .nameContainer span{
+      font-size: 40px;
+  }
+  h1{
+    font-size: 42px;
+   }
+   
+  .header{
+    height: 50px;
+   }
+   .summarry-para p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .info{
+    padding: 0 40px;
+    
+  }
+  .nav{
+    padding: 0 30px;
+  }
+  .about-content .description p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #8892B0;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+  .education{
+    width: auto;
+  }
+  .education-content{
+    margin: 0;
+  
+  }
+  .badge h5{
+    font-size: 18px;
+  }
+  .badge h6{
+    font-size: 20px;
+  }
+  .badge p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .featured-image{
+    display: none;
+  }
+  .subtitle h4{
+    font-size: 26px;
+  }
+  
+  .projects-content .subtitle .horizontal-line{
+    display: none;
+  }
+  
+  .featured-content {
+    position: relative;
+    grid-area: 1 / 1 / -1 / 13;
+    text-align: left;
+    padding: 0 20px;
+    overflow: hidden; 
+    background-color: #13273f;
+  }
+  
+  .featured-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/src/assets/image.png");
+    background-position: center;
+    background-size: cover; /* Ensures the image covers the entire area */
+    opacity: 0.04; /* Sets the opacity for both background color and image */
+    z-index: -1; /* Places the pseudo-element behind the content */
+  }
+  
+  .featured-content h6{
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .featured-content h4{
+    font-size: 22px;
+  }
+  .featured-content p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    background-color: transparent;
+  }
+    
+  .techstack{
+    font-size: 13px;
+    margin-top: 20px;
+    color:#0b8cfe;
+  }
+  .button{
+    text-align: right;
+    margin-bottom: 5px;
+  }
+  .button svg{
+    height: 40px;
+    width: 40px;
+  }
+  .noteworthy .subtitle h4{
+     font-size: 15px;
+    
+  }
+  .project-list{
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .horizontal-line{
+    width: 100%;
+  }
+  .project-item{
+    width: 100%;
+    padding: 20px 30px;
+    
+  }
+  .project-item p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contact-content .description p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contact-content .subtitle h4{
+    font-size: 26px;
+  }
+  .contact-content h4{
+    font-size: 16px;
+  }
+  
+     
+   
+}
+@media only screen and (max-width:486px)
+{
+  .nameContainer span{
+    font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 376px) {
+ 
+   
+  .nameContainer span{
+    font-size: 25px;
+   }
+
+  .info{
+    padding: 0 10px;
+    
+  }
+  .nav{
+    padding: 0 15px;
+  }
+  .project-item{
+    width: 100%;
+    min-height: 340px;
+  }
+  section{
+    padding: 60px 0;
+  }
+   
+ 
+}
