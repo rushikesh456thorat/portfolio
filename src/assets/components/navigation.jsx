@@ -65,7 +65,7 @@ const Navigation = () => {
                 <a href="#contact">Contact</a>
               </li >
             </ol>
-            <a className={`resume-button ${isVisible(document.querySelector('.nav-list .resume-button')) ? 'show' : 'hidden-nav'}`} style={{transitionDelay:'500ms'}} href="../../../src/assets/resume.pdf">
+            <a className={`resume-button ${isVisible(document.querySelector('.nav-list .resume-button')) ? 'show' : 'hidden-nav'}`} style={{transitionDelay:'500ms'}} target="_blank" href="./resume.pdf">
               Resume
             </a>
           </div>
@@ -119,7 +119,7 @@ const Navigation = () => {
                     <a href="#contact">Contact</a>
                   </li>
                 </ol>
-                <a className="resume-button" href="/resume">
+                <a className="resume-button" target="_blank" href="./resume.pdf">
                   Resume
                 </a>
               </aside>

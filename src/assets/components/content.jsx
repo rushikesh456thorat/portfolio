@@ -145,7 +145,7 @@ const Content = () => {
               }`}
               style={{ transitionDelay: "200ms" }}
             >
-              <img alt="Rushikesh Thorat" src="../../../src/assets/my.jpg" />
+              <img alt="Rushikesh Thorat" src="./my.jpg" />
             </div>
           </section>
           <section className="education" id="education">
