@@ -169,7 +169,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("/src/assets/image.png");
+    background-image: url("./image.png");
     background-position: center;
     background-size: cover; /* Ensures the image covers the entire area */
     opacity: 0.04; /* Sets the opacity for both background color and image */
