@@ -303,7 +303,7 @@ const Content = () => {
                       : "hidden"
                   }`}
                 >
-                  <img alt="Project Pic" src="../../../src/assets/image.png" />
+                  <img alt="Project Pic" src="./image.png" />
                 </div>
               </div>
               <div
